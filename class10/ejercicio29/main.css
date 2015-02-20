@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 30px;
+}
+
+ul li {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+ul li:before,
+ul li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  border-left: 4px solid red;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+ul li:after {
+  left: -2px;
+  border-left: 4px solid white;
+}
+
+ul li a {
+  color: #222;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
