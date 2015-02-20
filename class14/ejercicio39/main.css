@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+.section-homepromo {
+  background-color: #ccc;
+  padding: 20px 0;
+}
+
+.homepromo {
+  color: #fff;
+  display: block;
+  padding: 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  border: 10px solid transparent;
+}
+
+.homepromo:hover {
+  border-color: rgba(0,0,0,0.3);
+}
+
+.homepromo h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.1;
+
+}
+
+.homepromo img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.homepromo-enjoy {
+  background-color: #59c0a7;
+}
+
+.homepromo-discover {
+  background-color: #82af75;
+}
+
+.homepromo-travel {
+  background-color: #ffc90c;
+}
+
+.homepromo-style {
+  background-color: #ec9b18;
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .homepromo {
+    float: left;
+    width: 50%;
+  }
+}
+
+
+

@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+
+.homepromo {
+  color: #fff;
+  display: block;
+  padding: 20px 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 10px solid transparent;
+}
+
+.homepromo:hover {
+  border-color: rgba(0,0,0,0.3);
+}
+
+.homepromo h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.1;
+
+}
+
+.homepromo img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+
+
+.homepromo-enjoy {
+  background-color: #59c0a7;
+}
+
+.homepromo-discover {
+  background-color: #82af75;
+}
+
+.homepromo-travel {
+  background-color: #ffc90c;
+}
+
+.homepromo-style {
+  background-color: #ec9b18;
+}
